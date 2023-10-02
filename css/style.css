@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: azure;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+
+
+}
+
+.df {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid blueviolet;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    opacity: 50%;
+    transition: 0.3s;
+}
+
+
+.pautina {
+    color: blueviolet;
+    font-weight: 600;
+}
